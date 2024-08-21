@@ -1,0 +1,188 @@
+{
+  "uuid": "d5f489398b90f272832909ac05411f1f",
+  "path": "Offline/Task04",
+  "name": "Task04",
+  "content": "",
+  "created_at": "2024-03-20 19:14:34",
+  "updated_at": "2024-03-22 20:32:34",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "2d1247db8dd1a278fcf249925d6fefa4",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "8d577bf860fa4a2d97f3554fd887da63": 1,
+        "1432d3e7a76f4ef389e40a4e6bcb634a": 1,
+        "24eeb2ceca08480b92b847b6a310acda": 2,
+        "01644eaa00fb43fd963e07078d429805": 1,
+        "240fe4410a9c1d7d666f023cdce6303e": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "10uF",
+          1,
+          "C0603",
+          "C1",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "100nF",
+          1,
+          "C0603",
+          "C2",
+          {
+            "Supplier Part": "",
+            "Supplier": "",
+            "Contributor": "LCEDA_Lib",
+            "spiceSymbolName": "C_0603_US",
+            "Manufacturer Part": "",
+            "puuid": "f8151fdc728a41ebbc304e11d39e5437",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "HEADER 1X3 COPY",
+          1,
+          "1X3-PIN-HEADER-2.54MM_ES",
+          "P1",
+          {
+            "Supplier": "LCSC",
+            "Supplier Part": "C705186",
+            "Manufacturer": "XFCN",
+            "Manufacturer Part": "M3025V-1x6P",
+            "Contributor": "erzyk",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "HEADER 1X3 COPY",
+            "puuid": "58850d8600194d60a3a0bfe8944d78d5",
+            "uuid": "01644eaa00fb43fd963e07078d429805"
+          }
+        ],
+        [
+          "1K-R0603",
+          1,
+          "R0603",
+          "R1",
+          {
+            "Contributor": "LCSC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900009267",
+            "Manufacturer": "null",
+            "Manufacturer Part": "1K-R0603",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "1K-R0603",
+            "puuid": "398691f1f785460098bbe5ee6590333c",
+            "uuid": "1432d3e7a76f4ef389e40a4e6bcb634a"
+          }
+        ],
+        [
+          "50Ω",
+          1,
+          "RES-ADJ-TH_3296W",
+          "R2",
+          {
+            "Supplier Part": "C21881",
+            "Supplier": "LCSC",
+            "Manufacturer": "ReliaPro",
+            "Manufacturer Part": "Precision potentiometer 3296W/50ohm",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "Precision potentiometer 3296W/50ohm",
+            "puuid": "5e404972447a403ca43a83aeb15e254e",
+            "uuid": "240fe4410a9c1d7d666f023cdce6303e"
+          }
+        ],
+        [
+          "NE555_C5125085",
+          1,
+          "SOIC-8_L4.9-W3.9-P1.27-LS6.0-BL",
+          "U1",
+          {
+            "Contributor": "lcsc",
+            "Supplier": "LCSC",
+            "Supplier Part": "C5125085",
+            "Manufacturer": "IDCHIP(英锐芯)",
+            "Manufacturer Part": "NE555",
+            "JLCPCB Part Class": "Extended Part",
+            "spiceSymbolName": "NE555_C5125085",
+            "puuid": "806a55eb4d3c40ab838f70f86785d85e",
+            "uuid": "8d577bf860fa4a2d97f3554fd887da63"
+          }
+        ]
+      ],
+      "updateTime": 1711119754,
+      "createTime": 1711049002,
+      "histories": [],
+      "created_at": "2024-03-22 00:53:22",
+      "updated_at": "2024-03-22 20:32:34"
+    },
+    {
+      "uuid": "116383767bafe4cb58a5e8a8a27be8f0",
+      "puuid": "d5f489398b90f272832909ac05411f1f",
+      "title": "PCB_Task04_4",
+      "filename": "PCB_Task04_4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "58850d8600194d60a3a0bfe8944d78d5": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "3922f97a9e70422a9ab766302506605d": 1,
+        "f1412257f0ef491182e6889e0f6ca3e7": 1
+      },
+      "BOM": [],
+      "updateTime": 1711048073,
+      "createTime": 1711048073,
+      "histories": [],
+      "created_at": "2024-03-22 00:37:53",
+      "updated_at": "2024-03-22 00:37:53"
+    },
+    {
+      "uuid": "c4a3515a3a2de0099683d1e7ed72bf01",
+      "puuid": "d5f489398b90f272832909ac05411f1f",
+      "title": "PCB_Task04_5",
+      "filename": "PCB_Task04_5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "f8151fdc728a41ebbc304e11d39e5437": 2,
+        "58850d8600194d60a3a0bfe8944d78d5": 1,
+        "398691f1f785460098bbe5ee6590333c": 1,
+        "806a55eb4d3c40ab838f70f86785d85e": 1,
+        "f1412257f0ef491182e6889e0f6ca3e7": 1
+      },
+      "BOM": [],
+      "updateTime": 1711050306,
+      "createTime": 1711048095,
+      "histories": [],
+      "created_at": "2024-03-22 00:38:15",
+      "updated_at": "2024-03-22 01:15:06"
+    }
+  ],
+  "sort": [],
+  "title": "Task04",
+  "foldername": "Task04",
+  "schfilename": "Task04.json",
+  "schfilemtime": 1711119754302
+}
